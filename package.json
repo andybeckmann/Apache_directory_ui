@@ -1,0 +1,16 @@
+{
+  "name": "grunt-starter",
+  "version": "1.0.0",
+  "private": true,
+  "devDependencies": {
+    "grunt": "*",
+    "grunt-cli": "*",
+    "grunt-contrib-sass": "*",
+    "grunt-contrib-cssmin": "*",
+    "grunt-contrib-jshint": "*",
+    "grunt-contrib-concat": "*",
+    "grunt-contrib-uglify": "*",
+    "grunt-contrib-watch": "*",
+    "load-grunt-tasks": "*"
+  }
+}
