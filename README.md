@@ -1,11 +1,11 @@
 
 #directory_list
 
-###List directory files with PHP
-
-Initially inspired by [a css-tricks blog post](https://css-tricks.com/snippets/php/display-styled-directory-contents/), though the script has been rewritten to work with later versions of PHP.
+###List files within a directory using PHP
 
 Place these files within any directory you wish to view the contents of, such as a local sites directory.
+
+Initially inspired by [a css-tricks blog post](https://css-tricks.com/snippets/php/display-styled-directory-contents/), though the script has been rewritten to work with later versions of PHP.
 
 ###Hiding these files within the directory 
 
