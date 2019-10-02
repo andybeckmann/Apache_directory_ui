@@ -189,7 +189,7 @@ th {
 
 * {
   box-sizing: border-box;
-  -webkit-tap-highlight-color: transparent; }
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0); }
 
 img {
   max-width: 100%;
@@ -200,10 +200,12 @@ a {
 
 body {
   color: #fff;
-  font-family: sans-serif;
-  font-size: 14px;
+  font-family: Helvetica Neue, sans-serif;
+  font-size: 18px;
   padding: 2em;
-  background: #333; }
+  background: #333;
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility; }
 
 h1 {
   margin-top: 0;
@@ -216,10 +218,7 @@ table {
 
 th {
   padding: 5px 0;
-  background: #222222;
-  background: -moz-linear-gradient(top, #222222 0%, #222222 100%);
-  background: -webkit-linear-gradient(top, #222222 0%, #222222 100%);
-  background: linear-gradient(to bottom, #222222 0%, #222222 100%);
+  background: #121212;
   text-align: left;
   color: #fff;
   cursor: pointer; }
@@ -231,7 +230,9 @@ th {
     padding-left: 35px; }
 
 td {
-  text-align: left; }
+  text-align: left;
+  padding: 5px;
+  transition: .5s ease all; }
   td a {
     color: #fff;
     display: block;
@@ -245,12 +246,13 @@ td {
     background: url(../images/folder.png) no-repeat 10px 50%; }
 
 tr {
-  background-color: #555; }
+  background: linear-gradient(90deg, #333, #111);
+  padding: 5px; }
   tr:nth-of-type(odd) {
-    background-color: #444; }
-  tr:hover td {
-    background-color: #666; }
-    tr:hover td a {
+    background: linear-gradient(90deg, #444, #222); }
+  tr:hover {
+    background: linear-gradient(90deg, #222, #111); }
+    tr:hover a {
       color: #fff; }
 
 /*# sourceMappingURL=main.css.map */

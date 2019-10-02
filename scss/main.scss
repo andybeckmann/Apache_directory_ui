@@ -21,10 +21,12 @@ a {
 
 body {
     color: #fff;
-    font-family: sans-serif;
-    font-size: 14px;
+    font-family: Helvetica Neue, sans-serif;
+    font-size: 18px;
     padding: 2em;
     background: #333;
+    -webkit-font-smoothing: antialiased;
+	text-rendering: optimizeLegibility;
 }
 
 // Headers
@@ -47,10 +49,7 @@ table {
 
 th {
     padding: 5px 0;
-    background: #222222;
-	background: -moz-linear-gradient(top,  #222222 0%, #222222 100%);
-	background: -webkit-linear-gradient(top,  #222222 0%,#222222 100%);
-	background: linear-gradient(to bottom,  #222222 0%,#222222 100%);
+    background: #121212;
 	text-align: left;
     color: #fff;
 	cursor: pointer;
@@ -72,6 +71,8 @@ th {
 
 td {
 	text-align: left;
+	padding: 5px;
+	transition: .5s ease all;
 
 	a {
 	    color: #fff;
@@ -93,17 +94,18 @@ td {
 	}
 }
 
-// Table Rowsimage
+// Table Row
 
-tr{
-    background-color: #555;
+tr {
+    background: linear-gradient(90deg, #333, #111);
+    padding: 5px;
 
     &:nth-of-type(odd) {
-	    background-color: #444;
+	    background: linear-gradient(90deg, #444, #222);
 	}
 
-	&:hover td {
-	    background-color: #666;
+	&:hover {
+	    background: linear-gradient(90deg, #222, #111);
 
 	    a {
 		    color: #fff;
