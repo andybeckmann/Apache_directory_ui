@@ -1,13 +1,13 @@
 {
   "name": "grunt-starter",
   "version": "1.0.0",
-  "description": "Button styles in SCSS",
+  "description": "List directory contents with PHP",
   "author": {
     "name": "Andy Beckmann",
     "email": "contact@andybeckmann.com",
     "url": "https://www.andybeckmann.com"
   },
-  "repository": "github:andybeckmann/AB_buttons",
+  "repository": "github:andybeckmann/AB_directory_list",
   "license": "MIT",
   "private": true,
   "devDependencies": {
