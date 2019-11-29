@@ -1,6 +1,14 @@
 {
   "name": "grunt-starter",
   "version": "1.0.0",
+  "description": "Button styles in SCSS",
+  "author": {
+    "name": "Andy Beckmann",
+    "email": "contact@andybeckmann.com",
+    "url": "https://www.andybeckmann.com"
+  },
+  "repository": "github:andybeckmann/AB_buttons",
+  "license": "MIT",
   "private": true,
   "devDependencies": {
     "grunt": "*",
