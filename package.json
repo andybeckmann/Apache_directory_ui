@@ -13,7 +13,7 @@
   "devDependencies": {
     "grunt": "*",
     "grunt-cli": "*",
-    "grunt-contrib-sass": "*",
+    "grunt-dart-sass": "*",
     "grunt-contrib-cssmin": "*",
     "grunt-contrib-jshint": "*",
     "grunt-contrib-concat": "*",
