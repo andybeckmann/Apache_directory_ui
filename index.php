@@ -6,6 +6,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <meta name="description" content="">
         <title>Directory Listing</title>
+        <link rel="stylesheet" href="lib/normalize-8.0.1.css">
         <link rel="stylesheet" href="css/production.css">
     </head>
     <body>
