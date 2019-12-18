@@ -35,6 +35,7 @@ h1 {
 table {
   background-color: #f3f3f3;
   width: 100%;
+  border-collapse: collapse;
 }
 
 th {
