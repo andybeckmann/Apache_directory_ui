@@ -76,7 +76,7 @@ module.exports = function(grunt) {
             },
  
             css: {
-                files: ['scss/*.scss','/scss/**/*.scss','css/**/*.css'],
+                files: ['scss/*.scss','scss/**/*.scss','css/**/*.css'],
                 tasks: ['dart-sass', 'cssmin'],
                 options: {
                     spawn: false,
