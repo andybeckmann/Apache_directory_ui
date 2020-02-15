@@ -1,14 +1,4 @@
 {
-  "name": "AB_directory_list",
-  "version": "1.0.0",
-  "description": "List directory contents with PHP",
-  "author": {
-    "name": "Andy Beckmann",
-    "email": "contact@andybeckmann.com",
-    "url": "https://www.andybeckmann.com"
-  },
-  "repository": "github:andybeckmann/AB_directory_list",
-  "license": "MIT",
   "private": true,
   "devDependencies": {
     "grunt": "*",
